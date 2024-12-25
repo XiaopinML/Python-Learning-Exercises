@@ -2,5 +2,5 @@
 matrix = [[1,2,4],[3,1,2],[2,3,1]]
 for row in matrix:
     for element in row:
-        print(element ,end=" ")
+        print( f'{element}' ,end=" ")
     print()
