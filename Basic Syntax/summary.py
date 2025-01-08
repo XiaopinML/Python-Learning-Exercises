@@ -13,6 +13,7 @@ my_dict = {
     "Tel": 82828282,
     "Education": "Master-Level"
 } 
-my_dict['name'] = 'Ali'
+my_dict = dict(name ='Alice')
 
 print(my_dict['name'])
+print('age' in my_dict)
